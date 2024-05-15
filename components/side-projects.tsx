@@ -15,6 +15,12 @@ const dummy_projects = [
     image: "/images/vsem-watchmarker.png",
     url: "https://github.com/michalshelenberg/vsem-watchmarker",
   },
+  {
+    name: "Hahmlet",
+    description: "Tvůrce seznamu literatury k maturitě",
+    image: "/images/hahmlet.png",
+    url: "https://www.hahmlet.com/",
+  },
 ];
 
 export default function SideProjects() {
