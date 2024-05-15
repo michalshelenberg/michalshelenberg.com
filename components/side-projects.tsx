@@ -20,7 +20,7 @@ const dummy_projects = [
 export default function SideProjects() {
   return (
     <section className="space-y-6">
-      <h3 className="uppercase tracking-widest">Side projects</h3>
+      <h3 className="uppercase tracking-widest">Projects</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-x-6 gap-y-12">
         {dummy_projects.map((project) => (
           <div key={project.name} className="space-y-3">
@@ -30,7 +30,7 @@ export default function SideProjects() {
                 height={768}
                 src={project.image}
                 alt="Project image"
-                className="rounded-2xl hover:scale-[1.03] transition duration-300 border"
+                className="md:rounded-2xl rounded-lg hover:scale-[1.03] transition duration-300 border"
               />
             </Link>
             <div className="space-y-1.5">
