@@ -25,11 +25,6 @@ export default function RootLayout({
           <Link href={"/"} className="hover:text-black transition">
             <h1>Michal Shelenberg</h1>
           </Link>
-          {/* <nav className="space-x-6 hidden md:block">
-            <Link href={"/"} className="hover:text-black transition">
-              Side projects
-            </Link>
-          </nav> */}
         </header>
         {children}
         <Footer />
