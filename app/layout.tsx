@@ -25,6 +25,7 @@ export default function RootLayout({
           <Link
             href={"/"}
             aria-label="Michal Shelenberg"
+            prefetch={false}
             className="hover:text-black transition"
           >
             Michal Shelenberg

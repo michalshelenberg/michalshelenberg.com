@@ -34,11 +34,16 @@ export default function Projects() {
       <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-x-6 gap-y-12">
         {projects.map((project, index) => (
           <article key={project.name} className="space-y-3">
-            <Link href={project.url} target="_blank" aria-label={project.name}>
+            <Link
+              href={project.url}
+              target="_blank"
+              aria-label={project.name}
+              prefetch={false}
+            >
               <Image
                 src={project.image}
-                width={1024}
-                height={768}
+                width={512}
+                height={384}
                 alt={project.name}
                 placeholder="blur"
                 priority={index < 3}
@@ -50,6 +55,7 @@ export default function Projects() {
                 href={project.url}
                 target="_blank"
                 aria-label={project.name}
+                prefetch={false}
               >
                 {project.name}
               </Link>
