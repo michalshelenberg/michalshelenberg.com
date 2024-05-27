@@ -22,8 +22,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <header className="flex justify-between uppercase tracking-widest pt-6 px-6 md:px-12">
-          <Link href={"/"} className="hover:text-black transition">
-            <h1>Michal Shelenberg</h1>
+          <Link
+            href={"/"}
+            aria-label="Michal Shelenberg"
+            className="hover:text-black transition"
+          >
+            Michal Shelenberg
           </Link>
         </header>
         {children}

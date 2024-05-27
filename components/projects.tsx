@@ -15,7 +15,7 @@ const projects = [
   {
     name: "VŠEM Watchmarker",
     description:
-      "Browser extension that adds progress tracking to Videolearning VŠEM",
+      "Rozšíření označuje zhlédnuté lekce na Videolearning VŠEM a automaticky posune video tam, kde jste skončili",
     image: vsem_watchmarker_image,
     url: "https://github.com/michalshelenberg/vsem-watchmarker",
   },
@@ -27,31 +27,35 @@ const projects = [
   },
 ];
 
-export default function SideProjects() {
+export default function Projects() {
   return (
     <section className="space-y-6">
-      <h3 className="uppercase tracking-widest">Projects</h3>
+      <h2 className="uppercase tracking-widest">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-x-6 gap-y-12">
         {projects.map((project, index) => (
-          <div key={project.name} className="space-y-3">
-            <Link href={project.url} target="_blank">
+          <article key={project.name} className="space-y-3">
+            <Link href={project.url} target="_blank" aria-label={project.name}>
               <Image
                 src={project.image}
                 width={1024}
                 height={768}
-                alt="Project image"
+                alt={project.name}
                 placeholder="blur"
                 priority={index < 3}
                 className="md:rounded-2xl rounded-lg hover:scale-[1.03] transition duration-300 border"
               />
             </Link>
             <div className="space-y-1.5">
-              <Link href={project.url} target="_blank">
+              <Link
+                href={project.url}
+                target="_blank"
+                aria-label={project.name}
+              >
                 {project.name}
               </Link>
-              <p className="text-black/50">{project.description}</p>
+              <p className="text-sm">{project.description}</p>
             </div>
-          </div>
+          </article>
         ))}
       </div>
     </section>
