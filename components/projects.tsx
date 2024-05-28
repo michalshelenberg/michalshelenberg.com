@@ -17,7 +17,7 @@ const projects = [
     description:
       "Rozšíření označuje zhlédnuté lekce na Videolearning VŠEM a automaticky posune video tam, kde jste skončili",
     image: vsem_watchmarker_image,
-    url: "https://github.com/michalshelenberg/vsem-watchmarker",
+    url: "https://chromewebstore.google.com/detail/v%C5%A1em-watchmarker/jkccjafmkadkabnfjepicjocjgphidbc",
   },
   {
     name: "Hahmlet",
@@ -47,7 +47,7 @@ export default function Projects() {
                 alt={project.name}
                 placeholder="blur"
                 priority={index < 3}
-                className="md:rounded-2xl rounded-lg hover:scale-[1.03] transition duration-300 border"
+                className="w-full md:rounded-2xl rounded-lg hover:scale-[1.03] transition duration-300 border"
               />
             </Link>
             <div className="space-y-1.5">
