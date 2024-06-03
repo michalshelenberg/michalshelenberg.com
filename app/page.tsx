@@ -6,7 +6,7 @@ export default function Home() {
       <header className="py-16 max-w-[800px] w-full">
         <h1 className="hidden">Michal Shelenberg</h1>
         <p className="md:text-3xl text-2xl">
-          Creative developer, specializing in Next.js applications, mobile apps,
+          Web developer, specializing in Next.js and React Native applications,
           games, and robotics
         </p>
       </header>

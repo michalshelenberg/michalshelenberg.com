@@ -1,8 +1,8 @@
-import Image from "next/image";
-import Link from "next/link";
+import counterpp_image from "@/public/images/counterpp.png";
 import hahmlet_image from "@/public/images/hahmlet.png";
 import vsem_watchmarker_image from "@/public/images/vsem-watchmarker.png";
-import counterpp_image from "@/public/images/counterpp.png";
+import Image from "next/image";
+import Link from "next/link";
 
 const projects = [
   {
