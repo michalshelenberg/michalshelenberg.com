@@ -33,7 +33,7 @@ export default function Projects() {
       <h2 className="uppercase tracking-widest">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-x-6 gap-y-12">
         {projects.map((project, index) => (
-          <article key={project.name} className="space-y-3">
+          <article key={project.name}>
             <Link
               href={project.url}
               target="_blank"
@@ -47,20 +47,19 @@ export default function Projects() {
                 alt={project.name}
                 placeholder="blur"
                 priority={index < 3}
-                className="w-full md:rounded-2xl rounded-lg hover:scale-[1.03] transition duration-300 border"
+                className="w-full mb-4 md:rounded-2xl rounded-lg hover:scale-[1.03] transition duration-300 border"
               />
             </Link>
-            <div className="space-y-1.5">
-              <Link
-                href={project.url}
-                target="_blank"
-                aria-label={project.name}
-                prefetch={false}
-              >
-                {project.name}
-              </Link>
-              <p className="text-sm">{project.description}</p>
-            </div>
+            <Link
+              href={project.url}
+              target="_blank"
+              aria-label={project.name}
+              prefetch={false}
+              className="text-lg font-medium text-gray-900"
+            >
+              {project.name}
+            </Link>
+            <p className="mt-1 text-sm text-gray-700">{project.description}</p>
           </article>
         ))}
       </div>
