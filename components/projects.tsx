@@ -1,5 +1,5 @@
 import counterpp_image from "@/public/images/counterpp.png";
-import hahmlet_image from "@/public/images/hahmlet.png";
+import hahmlet_image from "@/public/images/hahmlet_cz.png";
 import vsem_watchmarker_image from "@/public/images/vsem-watchmarker.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -20,10 +20,10 @@ const projects = [
     url: "https://chromewebstore.google.com/detail/v%C5%A1em-watchmarker/jkccjafmkadkabnfjepicjocjgphidbc",
   },
   {
-    name: "Hahmlet",
+    name: "Hahmlet.cz",
     description: "Generátor seznamu literatury k maturitě",
     image: hahmlet_image,
-    url: "https://www.hahmlet.com/",
+    url: "https://www.hahmlet.cz/",
   },
 ];
 
