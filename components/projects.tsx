@@ -47,7 +47,7 @@ export default function Projects() {
                 alt={project.name}
                 placeholder="blur"
                 priority={index < 3}
-                className="w-full mb-4 md:rounded-2xl rounded-lg hover:scale-[1.03] transition duration-300 border"
+                className="w-full mb-4 md:rounded-2xl rounded-lg hover:scale-[1.03] transition duration-300 border border-neutral-300 dark:border-neutral-900"
               />
             </Link>
             <Link
@@ -55,11 +55,13 @@ export default function Projects() {
               target="_blank"
               aria-label={project.name}
               prefetch={false}
-              className="text-lg font-medium text-gray-900"
+              className="text-lg font-medium text-gray-900 dark:text-white"
             >
               {project.name}
             </Link>
-            <p className="mt-1 text-sm text-gray-700">{project.description}</p>
+            <p className="mt-1 text-sm text-gray-700 dark:text-neutral-300">
+              {project.description}
+            </p>
           </article>
         ))}
       </div>

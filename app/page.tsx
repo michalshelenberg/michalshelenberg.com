@@ -16,7 +16,7 @@ export default function Home() {
           <Link
             href={"https://github.com/msxgg"}
             target="_blank"
-            className={`flex flex-row py-1.5 text-white pr-3 pl-1.5 gap-1.5 rounded-full bg-black hover:scale-105 transition duration-300 items-center justify-center`}
+            className={`flex flex-row py-1.5 text-white pr-3 pl-1.5 gap-1.5 rounded-full bg-black dark:bg-white dark:text-black hover:scale-105 transition duration-300 items-center justify-center`}
           >
             {<FaGithub size={20} />}
             {"GitHub"}
