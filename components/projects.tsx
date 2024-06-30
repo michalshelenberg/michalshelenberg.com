@@ -1,4 +1,4 @@
-import counterpp_image from "@/public/images/counterpp.png";
+import counter_image from "@/public/images/counter.png";
 import hahmlet_image from "@/public/images/hahmlet.png";
 import vsem_watchmarker_image from "@/public/images/vsem-watchmarker.png";
 import Image from "next/image";
@@ -9,8 +9,8 @@ const projects = [
     name: "Counter++",
     description:
       "The best counter you will find, with intuitive UI, ability to create multiple counters, and without any ads",
-    image: counterpp_image,
-    url: "https://counterpp.michalshelenberg.com/",
+    image: counter_image,
+    url: "https://counter.michalshelenberg.com/",
   },
   {
     name: "VŠEM Watchmarker",

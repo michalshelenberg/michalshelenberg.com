@@ -24,12 +24,7 @@ export default function RootLayout({
         className={`${inter.className} dark:bg-neutral-950 dark:text-white`}
       >
         <header className="flex justify-between uppercase tracking-widest pt-6 px-6 md:px-12">
-          <Link
-            href={"/"}
-            aria-label="Michal Shelenberg"
-            prefetch={false}
-            className="hover:text-black transition"
-          >
+          <Link href={"/"} aria-label="Michal Shelenberg" prefetch={false}>
             Michal Shelenberg
           </Link>
         </header>

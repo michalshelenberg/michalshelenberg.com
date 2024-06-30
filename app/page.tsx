@@ -14,7 +14,7 @@ export default function Home() {
         {/* Social badges */}
         <div className="flex flex-row gap-3 mt-6">
           <Link
-            href={"https://github.com/msxgg"}
+            href={"https://github.com/michalshelenberg"}
             target="_blank"
             className={`flex flex-row py-1.5 text-white pr-3 pl-1.5 gap-1.5 rounded-full bg-black dark:bg-white dark:text-black hover:scale-105 transition duration-300 items-center justify-center`}
           >
@@ -22,7 +22,7 @@ export default function Home() {
             {"GitHub"}
           </Link>
           <Link
-            href={"https://www.linkedin.com/in/msxgg/"}
+            href={"https://www.linkedin.com/in/michalshelenberg/"}
             target="_blank"
             className={`flex flex-row py-1.5 text-white pr-3 pl-3 gap-1.5 rounded-full bg-[#0A66C2] hover:scale-105 transition duration-300 items-center justify-center`}
           >
