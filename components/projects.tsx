@@ -7,6 +7,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 const projects = [
+  // Zodd
+  // Wikimaniac
+  // LIMO Dating App
+  // Socialreaders
   {
     name: "InFaktura",
     description: "Faktura online bez registrace a zcela zdarma",
