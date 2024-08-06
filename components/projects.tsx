@@ -1,34 +1,15 @@
-import counter_image from "@/public/images/counter.png";
 import hahmlet_image from "@/public/images/hahmlet.png";
 import infaktura_image from "@/public/images/infaktura.png";
-import liquidwar_image from "@/public/images/liquidwar.png";
 import vsem_watchmarker_image from "@/public/images/vsem-watchmarker.png";
 import Image from "next/image";
 import Link from "next/link";
 
 const projects = [
-  // Zodd
-  // Wikimaniac
-  // LIMO Dating App
-  // Socialreaders
   {
     name: "InFaktura",
     description: "Faktura online bez registrace a zcela zdarma",
     image: infaktura_image,
     url: "https://infaktura.michalshelenberg.com/",
-  },
-  {
-    name: "Counter++",
-    description:
-      "The best counter you will find, with intuitive UI, ability to create multiple counters, and without any ads",
-    image: counter_image,
-    url: "https://counter.michalshelenberg.com/",
-  },
-  {
-    name: "Liquid War",
-    description: "Play Liquid War online with your friends or against bots",
-    image: liquidwar_image,
-    url: "https://liquidwar.michalshelenberg.com/",
   },
   {
     name: "VŠEM Watchmarker",
